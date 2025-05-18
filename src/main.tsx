@@ -19,5 +19,7 @@
 
 import { createRoot } from "react-dom/client";
 import App from "./components/App/App";
+// import "modern-normalize";
+// import "./types/global";
 
 createRoot(document.getElementById("root") as HTMLElement).render(<App />);
